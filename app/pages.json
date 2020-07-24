@@ -1,0 +1,112 @@
+{
+
+	// pages.json
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+		    "path" : "pages/shopping/login/login",
+		    "style" : {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+				}
+		},
+		{
+			"path": "pages/index/index/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+		"path": "pages/shopping/index/index",
+		"style": {
+			"navigationStyle": "custom" ,// 隐藏系统导航栏
+			"navigationBarTextStyle": "white" 
+			}
+		} ,
+        {
+            "path" : "pages/shopping/order/order",
+            "style" : {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+        }
+        ,{
+            "path" : "pages/shopping/set/set",
+            "style" : {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+        }
+        ,{
+            "path" : "pages/shopping/ewm/ewm",
+            "style" : {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+        },
+		{
+			"path": "pages/index/desk/desk",
+			"style": {
+				"navigationBarTextStyle": "white" ,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		
+		{
+			"path": "pages/index/member/member",
+			"style": {
+				"navigationBarTextStyle": "white" ,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/index/register/register",
+			"style": {
+				"navigationBarTextStyle": "white" ,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		        "color": "#8a8a8a",
+		        "selectedColor": "#2979ff",
+		        "borderStyle": "black",
+		        "backgroundColor": "#ffffff",
+		        "height": "50px",
+		        "fontSize": "10px",
+		        "iconWidth": "24px",
+		        "spacing": "3px",
+		        "list": [
+					{
+						"pagePath": "pages/index/index/index",
+						"iconPath": "static/image/image/Home1.png",
+						"selectedIconPath": "static/image/image/Home.png",
+						"text": "首页"
+					}, 
+					{
+						"pagePath": "pages/index/desk/desk",
+						"iconPath": "static/image/image/serve1.png",
+						"selectedIconPath": "static/image/image/serve.png",
+						"text": "点餐"
+					},
+					{
+						"pagePath": "pages/index/member/member",
+						"iconPath": "static/image/image/member.png",
+						"selectedIconPath": "static/image/image/member1.png",
+						"text": "会员"
+					}
+				],
+		        "midButton": {
+		            "width": "80px",
+		            "height": "50px",
+		            "text": "文字",
+		            "iconPath": "static/image/image/midButton_iconPath.png",
+		            "iconWidth": "24px",
+		            "backgroundImage": "static/image/image/midButton_backgroundImage.png"
+		        }
+		    }
+}
